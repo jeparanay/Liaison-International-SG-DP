@@ -58,6 +58,11 @@ table {
 
 
 
+
+
+
+
+
 /* Fonts */
 @font-face {
     font-family: "scala-sans-reg";
@@ -77,47 +82,7 @@ table {
 
 
 
-
-
-section {
-  display: none;
-}
-section.active {
-  display: block;
-}
-
-
-
-
-#ap ul li:target a {
-	display: block;
-}
-
-
-
-
-/* Header div */
-.logo{
-	width: 60px;
-	position: absolute;
-	top:14px;
-	left: 20px;
-
-}
-
-header{
-	width: 100%;
-	background: #F7F7FB;
-	position: fixed;
-	height: 65px;
-	z-index: 2;
-	border-bottom: 1px solid #C8C8CE;
-
-}
-
-
 /* Type */
-
 h1 {
 	position: absolute;
 	left: 100px;
@@ -128,38 +93,21 @@ h1 {
 	font-family: 'scala-reg';
 }
 
-
-.otherPage {
-	float: right;
-	padding-right: 20px;
-	padding-top: 17px;
-	color: #0076c0;
-	font-size: 18px;
-	font-family: 'scala-sans-reg';
-}
-
-ul{
-	padding-left: 20px;
-
-
-}
-
-
-li{
-	text-decoration: none;
-	list-style-type: none;
-	line-height: 30px;
-	font-size: 13px;
-	margin-right: 20px;
-
-}
-
 h2 {
 	font-family: 'scala-sans-reg';
 	font-size: .9em;
 	color: #383D45;
 	padding-top: 2px;
 	padding-left: 20px;
+}
+
+h3{
+	font-family: sans-serif;
+	font-size: 1.2em;
+	color: black;
+	padding-top: 90px;
+	text-align: center;
+	vertical-align: middle;
 }
 
 a{
@@ -176,18 +124,54 @@ a:active{
 	font-weight: normal;
 }
 
-
-
-
-.designs-specs{
-	margin-left: 300px;
-	padding-top: 100px;
-	text-align: center;
+.selected{
+	font-weight: bold;
+	color: #0277BD;
 }
 
-.designs-specs a{
-		padding-right: 80px;
+ul{
+	padding-left: 20px;
 }
+
+
+li{
+	text-decoration: none;
+	list-style-type: none;
+	line-height: 30px;
+	font-size: 13px;
+	margin-right: 20px;
+}
+
+/* font style for link to dp/sg */
+.otherPage {
+	float: right;
+	padding-right: 20px;
+	padding-top: 17px;
+	color: #0076c0;
+	font-size: 18px;
+	font-family: 'scala-sans-reg';
+}
+
+
+
+/* Header div */
+.logo{
+	width: 60px;
+	position: absolute;
+	top:14px;
+	left: 20px;
+}
+
+header{
+	width: 100%;
+	background: #F7F7FB;
+	position: fixed;
+	height: 65px;
+	z-index: 2;
+	border-bottom: 1px solid #C8C8CE;
+}
+
+
 
 /*  Nav */
 
@@ -219,41 +203,16 @@ a:active{
     overflow-y: scroll;
 }
 
-.dp-image{
-	padding-left: 250px;
-	padding-top: 20px;
-	width: 100%;
-}
-
-.sg-image{
-	width:95%;
-	padding-top:50px;
-	padding-left:140px;
-
-}
 
 
-
-.selected{
-	font-weight: bold;
-	color: #0277BD;
-}
-
-
-
-
-/*  Body */
+/*  Body Style Guide */
+/*  Home */
 .home-buckets{
 	padding-left: 140px;
 	padding-top: 70px;
 	width: auto;
 }
 
-.bodycontent{
-
-
-
-}
 
 .bucket{
 	float: left;
@@ -285,22 +244,43 @@ a:active{
 	border-radius: 10px;
 }
 
-h3{
-	font-family: sans-serif;
-	font-size: 1.2em;
-	color: black;
-	padding-top: 90px;
+
+/* Design Panel */
+.designs-specs{
+	margin-left: 300px;
+	padding-top: 100px;
 	text-align: center;
-	vertical-align: middle;
+}
+
+.designs-specs a{
+		padding-right: 80px;
 }
 
 
 
+/*  Images on pages (Dp and Sg) */
+.dp-image{
+	padding-left: 250px;
+	padding-top: 20px;
+	width: 100%;
+}
+
+.sg-image{
+	width:95%;
+	padding-top:50px;
+	padding-left:140px;
+
+}
 
 
+/* How we are currently displaying images when you click a link */
+section {
+  display: none;
+}
 
-
-
+section.active {
+  display: block;
+}
 
 
 
