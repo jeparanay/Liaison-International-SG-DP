@@ -1,0 +1,348 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* End Reset */
+
+
+
+
+
+
+
+
+
+/* Fonts */
+@font-face {
+    font-family: "scala-sans-reg";
+    src: url("fonts/scala/ScalaSansWeb.woff") format('woff');
+}
+
+@font-face {
+    font-family: "scala-sans-bld";
+    src: url("fonts/scala/ScalaSansWeb-Bold.woff") format('woff');
+}
+
+@font-face {
+    font-family: "scala-reg";
+    src: url("fonts/scala/ScalaWeb.woff") format('woff');
+}
+
+
+
+
+
+
+section {
+  display: none;
+}
+section.active {
+  display: block;
+}
+
+
+
+
+#ap ul li:target a {
+	display: block;
+}
+
+
+
+
+/* Header div */
+.logo{
+	width: 60px;
+	position: absolute;
+	top:14px;
+	left: 20px;
+
+}
+
+header{
+	width: 100%;
+	background: #F7F7FB;
+	position: fixed;
+	height: 65px;
+	z-index: 2;
+	border-bottom: 1px solid #C8C8CE;
+
+}
+
+
+/* Type */
+
+h1 {
+	position: absolute;
+	left: 100px;
+	top:17px;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #383D45;
+	font-family: 'scala-reg';
+}
+
+
+.otherPage {
+	float: right;
+	padding-right: 20px;
+	padding-top: 17px;
+	color: #0076c0;
+	font-size: 18px;
+	font-family: 'scala-sans-reg';
+}
+
+ul{
+	padding-left: 20px;
+
+
+}
+
+
+li{
+	text-decoration: none;
+	list-style-type: none;
+	line-height: 30px;
+	font-size: 13px;
+	margin-right: 20px;
+
+}
+
+h2 {
+	font-family: 'scala-sans-reg';
+	font-size: .9em;
+	color: #383D45;
+	padding-top: 2px;
+	padding-left: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-family: 'scala-sans-reg';
+}
+
+a:hover{
+	color: #0064A3;
+}
+
+a:active{
+	font-weight: normal;
+}
+
+
+
+
+.designs-specs{
+	margin-left: 300px;
+	padding-top: 100px;
+	text-align: center;
+}
+
+.designs-specs a{
+		padding-right: 80px;
+}
+
+/*  Nav */
+
+.sg-nav {
+	background: White;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 140px;
+    border-right: 1px solid gray;
+    z-index: 1;
+    border-color: #C8C8CE;
+    padding-top: 80px;
+    overflow-y: scroll;
+}
+
+.dp-nav {
+	background: White;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    border-right: 1px solid gray;
+    z-index: 1;
+    border-color: #C8C8CE;
+    padding-top: 80px;
+    overflow-y: scroll;
+}
+
+.dp-image{
+	padding-left: 250px;
+	padding-top: 20px;
+	width: 100%;
+}
+
+.sg-image{
+	width:95%;
+	padding-top:50px;
+	padding-left:140px;
+
+}
+
+
+
+.selected{
+	font-weight: bold;
+	color: #0277BD;
+}
+
+
+
+
+/*  Body */
+.home-buckets{
+	padding-left: 140px;
+	padding-top: 70px;
+	width: auto;
+}
+
+.bodycontent{
+
+
+
+}
+
+.bucket{
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+
+.allbuckets{
+	background-color: aliceblue;
+}
+
+.allbuckets:hover{
+	border:1px solid black;
+	background-color: #ddefff;
+}
+
+.longbucket{
+
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 430px;
+	height: 200px;
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+
+h3{
+	font-family: sans-serif;
+	font-size: 1.2em;
+	color: black;
+	padding-top: 90px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
