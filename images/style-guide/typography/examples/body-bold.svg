@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="348px" height="195px" viewBox="0 0 348 195" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="347" height="191"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Type" transform="translate(-991.000000, -1550.000000)">
+            <g id="Group-15" transform="translate(991.000000, 1550.000000)">
+                <g id="Fill-1-Copy-+-Group-3-Copy-+-Stroke-59-Copy-+-Stroke-59-Copy-3-+-Stroke-59-Copy-2-+-Organization/-Term-+-Program-Name-+-Rectangle-15-Copy-3-+-Rectangle-15-Copy-5-+-Chemistry-+-Education-+-Alt-Program:-Biology-+-Pomona-Graduate-+-Pomona-Graduate-+-Fall-Term-+-Fall-Term-Copy-+-Group-20-Copy-2-+-Group-20-Copy-4-Mask" transform="translate(1.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <path d="M1169.981,620 L-63.596,620 C-66.018,620 -68,614.242297 -68,607.206395 L-68,-11.2063946 C-68,-18.2422966 -66.018,-24 -63.596,-24 L1169.981,-24 C1172.403,-24 1174.385,-18.2422966 1174.385,-11.2063946 L1174.385,607.206395 C1174.385,614.242297 1172.403,620 1169.981,620" id="Fill-1-Copy" stroke="#C8C8CE" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    <g id="Group-3-Copy" mask="url(#mask-2)">
+                        <g transform="translate(125.000000, -5.000000)">
+                            <polygon id="Fill-13" stroke="none" fill="#0070C9" fill-rule="evenodd" points="0.4967 2.3441 2.3537 0.7201 6.8537 5.2201 11.3537 0.7201 13.2767 2.2361 6.8537 9.1261"></polygon>
+                            <polygon id="Stroke-14" stroke="#FFFFFF" stroke-width="1" fill="none" points="0.4967 2.3441 2.3537 0.7201 6.8537 5.2201 11.3537 0.7201 13.2767 2.2361 6.8537 9.1261"></polygon>
+                        </g>
+                    </g>
+                    <path d="M-66.8615878,19.3333333 L1174.77271,19.3333333" id="Stroke-59-Copy" stroke="#C8C8C8" mask="url(#mask-2)"></path>
+                    <path d="M-66.8615878,119.333333 L1174.77271,119.333333" id="Stroke-59-Copy-3" stroke="#C8C8C8" mask="url(#mask-2)"></path>
+                    <path d="M-66.8615878,119.333333 L1174.77271,119.333333" id="Stroke-59-Copy-2" stroke="#C8C8C8" mask="url(#mask-2)"></path>
+                    <text id="Organization/-Term" mask="url(#mask-2)" font-family="ScalaSansOT-Bold, Scala Sans OT" font-size="13" font-weight="bold" fill="#0072C6">
+                        <tspan x="13" y="4">Organization/ Term</tspan>
+                    </text>
+                    <text id="Program-Name" mask="url(#mask-2)" font-family="ScalaSansOT, Scala Sans OT" font-size="13" font-weight="normal" fill="#0072C6">
+                        <tspan x="241" y="4">Program Name</tspan>
+                    </text>
+                    <text id="Chemistry" mask="url(#mask-2)" font-family="ScalaSansOT-Bold, Scala Sans OT" font-size="15" font-weight="bold" line-spacing="16" fill="#60676D">
+                        <tspan x="241" y="66">Chemistry</tspan>
+                    </text>
+                    <text id="Education" mask="url(#mask-2)" font-family="ScalaSansOT-Bold, Scala Sans OT" font-size="15" font-weight="bold" line-spacing="16" fill="#60676D">
+                        <tspan x="241" y="176">Education</tspan>
+                    </text>
+                    <text id="Alt-Program:-Biology" mask="url(#mask-2)" font-family="ScalaSansOT, Scala Sans OT" font-size="15" font-weight="normal" line-spacing="16" fill="#60676D">
+                        <tspan x="241" y="86">Alt Program: Biology - Thesis</tspan>
+                    </text>
+                    <text id="Pomona-Graduate" mask="url(#mask-2)" font-family="ScalaSansOT, Scala Sans OT" font-size="15" font-weight="normal" fill="#50565B">
+                        <tspan x="13" y="65">Pomona Graduate</tspan>
+                    </text>
+                    <text id="Pomona-Graduate" mask="url(#mask-2)" font-family="ScalaSansOT, Scala Sans OT" font-size="15" font-weight="normal" fill="#50565B">
+                        <tspan x="13" y="164">Pomona Graduate</tspan>
+                    </text>
+                    <text id="Fall-Term" mask="url(#mask-2)" font-family="ScalaSansOT, Scala Sans OT" font-size="15" font-weight="normal" line-spacing="20" fill="#60676D">
+                        <tspan x="13" y="86">Fall Term</tspan>
+                    </text>
+                    <text id="Fall-Term-Copy" mask="url(#mask-2)" font-family="ScalaSansOT, Scala Sans OT" font-size="15" font-weight="normal" line-spacing="20" fill="#60676D">
+                        <tspan x="13" y="185">Fall Term</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle-2" stroke="#C7C7C7" x="0.5" y="0.5" width="347" height="194"></rect>
+                <polygon id="Star-Copy-6" fill="#D0011B" points="313 57.8859667 309.90983 59.5105652 310.5 56.0696104 308 53.6327126 311.454915 53.1306841 313 50 314.545085 53.1306841 318 53.6327126 315.5 56.0696104 316.09017 59.5105652"></polygon>
+                <polygon id="Star-Copy-11" fill="#D0011B" points="313 164.885967 309.90983 166.510565 310.5 163.06961 308 160.632713 311.454915 160.130684 313 157 314.545085 160.130684 318 160.632713 315.5 163.06961 316.09017 166.510565"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="349px" height="203px" viewBox="0 0 349 203" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>line-gray-example</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="348" height="145"></rect>
+        <rect id="path-3" x="-477" y="2" width="823" height="455" rx="8"></rect>
+        <rect id="path-4" x="-451" y="66" width="771" height="361"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Colors" transform="translate(-990.000000, -792.000000)">
+            <g id="line-gray-example" transform="translate(989.000000, 792.000000)">
+                <g id="Rectangle-3-Copy-3-+-Rectangle-5-Copy-5-+-Enter-your-address-+-Street-Address-1-+-Rectangle-6-Copy-6-+-Enter-additional-add-+-Apt-/-Suite-/-Other-+-Rectangle-6-Copy-7-+-Enter-your-City-+-City-+-Rectangle-6-Copy-8-+-Select-Country-+-Country-+-Rectangle-6-Copy-5-+-Triangle-Copy-Mask" transform="translate(2.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <g id="Rectangle-3-Copy-3" mask="url(#mask-2)">
+                        <use fill="#FCFCFC" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#C8C8CE" stroke-width="1" x="-476.5" y="2.5" width="822" height="454" rx="8"></rect>
+                    </g>
+                    <g id="Rectangle-5-Copy-5" mask="url(#mask-2)">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <rect stroke="#C8C8CE" stroke-width="1" x="-450.5" y="66.5" width="770" height="360"></rect>
+                    </g>
+                    <text id="Enter-your-address" mask="url(#mask-2)" font-family="ScalaSansOT, Scala Sans OT" font-size="15" font-weight="normal" fill="#757575">
+                        <tspan x="-102" y="180">Enter your address</tspan>
+                    </text>
+                    <rect id="Rectangle-6-Copy-6" stroke="#C8C8CE" mask="url(#mask-2)" x="-109.5" y="158.5" width="362" height="33"></rect>
+                    <rect id="Rectangle-6-Copy-5" stroke="#C8C8CE" mask="url(#mask-2)" x="-109.5" y="111.5" width="362" height="33"></rect>
+                    <polygon id="Triangle-Copy" fill="#979797" mask="url(#mask-2)" transform="translate(241.000000, 128.500000) rotate(180.000000) translate(-241.000000, -128.500000) " points="241 126 244 131 238 131"></polygon>
+                </g>
+                <text id="Enter-Your-Name" font-family="ScalaSansOT, Scala Sans OT" font-size="15" font-weight="normal" fill="#75757D">
+                    <tspan x="96" y="191">Enter Your Name</tspan>
+                </text>
+                <text id="Input-Field" font-family="ScalaSansOT, Scala Sans OT" font-size="15" font-weight="normal" fill="#50565B">
+                    <tspan x="0.44" y="191">Input Field</tspan>
+                </text>
+                <rect id="Rectangle-6-Copy-11" stroke="#C8C8CE" x="88.5" y="169.5" width="259" height="33"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

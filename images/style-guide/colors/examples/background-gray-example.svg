@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="348px" height="137px" viewBox="0 0 348 137" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>background-gray-example</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="348" height="137"></rect>
+        <rect id="path-3" x="57" y="53" width="308" height="94" rx="8"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Colors" transform="translate(-990.000000, -590.000000)">
+            <g id="background-gray-example" transform="translate(990.000000, 590.000000)">
+                <g id="Payment-Details-Copy-+-Rectangle-3-Copy-Mask">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#F7F7FB" xlink:href="#path-1"></use>
+                    <text id="Payment-Details-Copy" mask="url(#mask-2)" font-family="ScalaOT, Scala OT" font-size="30" font-weight="normal" fill="#57585A">
+                        <tspan x="15" y="34">Payment Details</tspan>
+                    </text>
+                    <g id="Rectangle-3-Copy" mask="url(#mask-2)">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#C8C8CE" stroke-width="1" x="57.5" y="53.5" width="307" height="93" rx="8"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

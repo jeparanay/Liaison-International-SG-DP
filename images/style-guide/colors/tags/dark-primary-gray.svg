@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="126px" height="201px" viewBox="0 0 126 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled Color Swatch Copy 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="120" height="195"></rect>
+        <filter x="-4.6%" y="-1.8%" width="109.2%" height="105.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Colors" transform="translate(-79.000000, -1270.000000)">
+            <g id="Untitled-Color-Swatch-Copy-12" transform="translate(82.000000, 1271.000000)">
+                <g id="Background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Background-Bottom" fill="#FFFFFF" x="0" y="120" width="120" height="75"></rect>
+                <rect id="Color-Swatch-#50565B" fill="#383D45" x="0" y="0" width="120" height="120"></rect>
+                <text id="Dark-Primary-Gray" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="12" font-weight="bold" fill="#000000">
+                    <tspan x="8" y="140">Dark Primary Gray</tspan>
+                </text>
+                <text id="#383D45" font-family="Helvetica" font-size="12" font-weight="normal" fill="#000000">
+                    <tspan x="8" y="161">#383D45</tspan>
+                </text>
+                <text id="56,-61,-69,-1.00" font-family="Helvetica" font-size="12" font-weight="normal" fill="#000000">
+                    <tspan x="8" y="183">56, 61, 69, 1.00</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

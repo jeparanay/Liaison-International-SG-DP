@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="346px" height="125px" viewBox="0 0 346 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Type" transform="translate(-986.000000, -125.000000)">
+            <g id="Group-5" transform="translate(986.000000, 119.000000)">
+                <text id="This-dashboard-is-yo" font-family="ScalaSansOT, Scala Sans OT" font-size="16" font-weight="normal" line-spacing="21" fill="#75757D">
+                    <tspan x="0" y="82">This dashboard is your application home providing </tspan>
+                    <tspan x="0" y="103">access to each part of the application you need to </tspan>
+                    <tspan x="0" y="124">complete and a high level overview of your progress.</tspan>
+                </text>
+                <g id="Group-4" transform="translate(11.000000, 0.000000)">
+                    <g id="Group-3" font-size="50" font-family="ScalaOT, Scala OT" fill="#57585A" font-weight="normal">
+                        <text id="My-Application">
+                            <tspan x="0" y="45">My Application</tspan>
+                        </text>
+                    </g>
+                    <polygon id="Star" fill="#D0011B" points="322 13.8859667 318.90983 15.5105652 319.5 12.0696104 317 9.63271264 320.454915 9.1306841 322 6 323.545085 9.1306841 327 9.63271264 324.5 12.0696104 325.09017 15.5105652"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

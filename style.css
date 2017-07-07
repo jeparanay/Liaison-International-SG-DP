@@ -64,6 +64,7 @@ table {
 
 
 /* Fonts */
+/* Font Face Defined */
 @font-face {
     font-family: "scala-sans-reg";
     src: url("fonts/scala/ScalaSansWeb.woff") format('woff');
@@ -79,10 +80,119 @@ table {
     src: url("fonts/scala/ScalaWeb.woff") format('woff');
 }
 
+/*** Font Class Names Defined (STYLE GUIDE) ***/
+
+.lsn-xl{
+	font-family: 'scala-reg';
+	font-size: 50px;
+}
+
+.lsn-lg{
+	font-family: 'scala-sans-reg';
+	font-size: 30px;
+}
+
+.lsn-med{
+	font-family: 'scala-sans-reg';
+	font-size: 20px;
+}
+
+.lsn-lede{
+	font-family: 'scala-sans-reg';
+	font-size: 18px;
+}
+
+.lsn-body{
+	font-family: 'scala-sans-reg';
+	font-size: 15px;
+}
+
+.lsn-sm{
+	font-family: 'scala-sans-reg';
+	font-size: 13px;
+}
+
+.lsn-bold{
+	font-family: 'scala-sans-bld';
+}
+
+.lsn-serif{
+	font-family: 'scala-reg';
+}
 
 
 
-/* Type */
+/*** Color Class Names Defined (STYLE GUIDE) ***/
+
+.lsn-primary-blue-font{
+	color: #0076C0;
+}
+
+.lsn-primary-blue-background{
+	background-color: #0076C0;
+}
+
+.lsn-secondary-blue{
+	color: #234078;
+}
+
+.lsn-gray-background{
+	background-color: #F7F7FB; 
+}
+
+.lsn-gray-line{
+	border: 1px #C8C8CE solid;
+}
+
+.lsn-medium-gray-font{
+	color: #75757D;
+}
+
+.lsn-medium-gray-background{
+	background-color: #75757D;
+}
+
+.lsn-dark-primary-gray{
+	color: #383D45;
+}
+
+.lsn-black{
+	color: #000000;
+}
+
+.lsn-white{
+	color: #FFFFFF;
+}
+
+.lsn-green-background{
+	background-color: #40A164;
+}
+
+.lsn-yellow-background{
+	background-color: #FFDC46;
+}
+
+.lsn-red-background{
+	background-color: #C71D46;
+}
+
+.lsn-red-font{
+	color: #C71D46;
+}
+
+.lsn-overlay-background{
+	background:rgba(0, 0, 0, 0.50);
+}
+
+.color-example-block{
+	width: 125px;
+	height: 30px;
+}
+
+
+
+
+/* Type On Pages */
 h1 {
 	position: absolute;
 	left: 100px;
@@ -206,6 +316,30 @@ header{
 
 
 /*  Body Style Guide */
+/*  Image on page (sg) */
+.sg-image{
+	width:95%;
+	padding-top:50px;
+}
+
+/*  code on page (sg) */
+pre{
+	background-color: white;
+	tab-size:2;
+
+}
+
+/*  Table on page (sg) */
+.table{
+	position: relative;
+	top: 64px;
+	margin-bottom: 200px;
+}
+
+tr:hover{
+	background:rgba(0, 118, 192, 0.05);
+}
+
 /*  Home */
 .home-buckets{
 	padding-left: 140px;
@@ -245,6 +379,12 @@ header{
 }
 
 
+
+
+
+
+
+
 /* Design Panel */
 .designs-specs{
 	margin-left: 300px;
@@ -256,33 +396,31 @@ header{
 		padding-right: 80px;
 }
 
-
-
-/*  Images on pages (Dp and Sg) */
+/*  Image on page (Dp) */
 .dp-image{
-	padding-left: 250px;
+
 	padding-top: 20px;
 	width: 100%;
 }
 
-.sg-image{
-	width:95%;
-	padding-top:50px;
-	padding-left:140px;
 
-}
+
 
 
 /* How we are currently displaying images when you click a link */
-section {
+.dp section {
   display: none;
+  margin-left: 250px;
+}
+
+.sg section {
+  display: none;
+  margin-left: 140px;
 }
 
 section.active {
   display: block;
 }
-
-
 
 
 

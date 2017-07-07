@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="348px" height="158px" viewBox="0 0 348 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="348" height="158" rx="8"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Type" transform="translate(-990.000000, -850.000000)">
+            <g id="Group-13" transform="translate(990.000000, 850.000000)">
+                <g id="Group-12">
+                    <g id="Group-11"></g>
+                </g>
+                <g id="Group-8" transform="translate(324.000000, 97.000000)"></g>
+                <g id="Rectangle-3-Copy-7">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#C8C8CE" stroke-width="1" x="0.5" y="0.5" width="347" height="157" rx="8"></rect>
+                </g>
+                <text id="5-0f-6-programs-sele" font-family="ScalaSansOT, Scala Sans OT" font-size="13" font-weight="normal" fill="#50565B">
+                    <tspan x="102" y="37">5 0f 6 programs selected to submit </tspan>
+                </text>
+                <text id="Summary" font-family="ScalaSansOT-Bold, Scala Sans OT" font-size="18" font-weight="bold" fill="#50565B">
+                    <tspan x="23" y="36">Summary</tspan>
+                </text>
+                <text id="Program-Fee-Copy" font-family="ScalaSansOT, Scala Sans OT" font-size="13" font-weight="normal" fill="#000000">
+                    <tspan x="256" y="71">Program Fee</tspan>
+                </text>
+                <text id="$50.00-copy" font-family="ScalaSansComp-Bold" font-size="20" font-weight="bold" fill="#50565B">
+                    <tspan x="269" y="119">$50.00</tspan>
+                </text>
+                <text id="Chemistry" font-family="ScalaSansOT, Scala Sans OT" font-size="15" font-weight="normal" line-spacing="16" fill="#000000">
+                    <tspan x="23" y="133">Chemistry</tspan>
+                </text>
+                <text id="Pomona-Graduate" font-family="ScalaSansOT, Scala Sans OT" font-size="16" font-weight="normal" fill="#50565B">
+                    <tspan x="23" y="116">Pomona Graduate</tspan>
+                </text>
+                <text id="Cal-Poly-Pomona" font-family="ScalaSansOT, Scala Sans OT" font-size="15" font-weight="normal" fill="#50565B">
+                    <tspan x="23" y="98">Cal Poly Pomona</tspan>
+                </text>
+                <polygon id="Star" fill="#D0011B" points="329 104.885967 325.90983 106.510565 326.5 103.06961 324 100.632713 327.454915 100.130684 329 97 330.545085 100.130684 334 100.632713 331.5 103.06961 332.09017 106.510565"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

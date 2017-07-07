@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="56px" viewBox="0 0 91 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 17</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Type" transform="translate(-1119.000000, -1841.000000)">
+            <g id="Group-17" transform="translate(1118.000000, 1841.000000)">
+                <text id="Total-Due-Copy" font-family="ScalaSansOT, Scala Sans OT" font-size="13" font-weight="normal" fill="#000000">
+                    <tspan x="20.2145" y="15">Total Due</tspan>
+                </text>
+                <text id="$40.00-copy" font-family="ScalaSansOT-Bold, Scala Sans OT" font-size="30" font-weight="bold" fill="#50565B">
+                    <tspan x="0.9" y="49">$40.00</tspan>
+                </text>
+                <polygon id="Star-Copy-7" fill="#D0011B" points="79 7.88596668 75.9098301 9.51056516 76.5 6.06961036 74 3.63271264 77.454915 3.1306841 79 0 80.545085 3.1306841 84 3.63271264 81.5 6.06961036 82.0901699 9.51056516"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

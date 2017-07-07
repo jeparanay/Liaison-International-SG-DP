@@ -1,8 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 
-
-
 <head>
       <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -31,11 +29,7 @@
 </head>
 
 
-
-
-
-
-<body>
+<body class="sg">
   <header>
     <img class="logo" src="images/logos/dots.png" alt="Logo">
       <h1>Style Guide</h1>
@@ -44,22 +38,1032 @@
 
 
 
-<!-- Body Content (nav inside body) -->
+    <!-- Body Content (nav inside body) -->
       <div class="bodycontent">
         <nav class="sg-nav">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#colors">Colors</a></li>
-          <li><a href="#typography">Typography</a></li>
-          <li><a href="#buttonsFields">Buttons/Fields</a></li>
-          <li><a href="#icons">Icons</a></li>
-          <li><a href="#containers">Containers</a></li>
-          <li><a href="#popupModals">Popup/Modals</a></li>
-        </ul>
-      </nav>
+          <ul>
+            <li><a href="#typography">Typography</a></li>
+            <li><a href="#colors">Colors</a></li>
+            <li><a href="#buttonsFields">Buttons/Fields</a></li>
+            <li><a href="#icons">Icons</a></li>
+            <li><a href="#containers">Containers</a></li>
+            <li><a href="#popupModals">Popup/Modals</a></li>
+            <li><a href="#resources">Resources</a></li>
+          </ul>
+        </nav>
 
-      <!-- HOME with buckets that link to relevant design pages -->
-            <section class="active home-buckets" id="home"> 
+
+        <!-- Typography -->
+            <section class="active" id="typography"> 
+                <table class = "table">              
+                  <!-- Header Row -->
+                              <tr class="lsn-sm">
+                                 <th> Style Tag </th>
+                                 <th> Text/Spec Info </th>
+                                 <th> Code </th>
+                                 <th> Usage Examples </th>
+                             </tr>
+
+                  <!-- XL Serif -->
+                             <tr>
+                                 <td> 
+                                    <img src="images/style-guide/typography/tags/xl-serif.svg" alt="lsn"> 
+                                 </td>
+
+
+                                 <td> 
+                                    <p class="lsn-xl lsn-serif">
+                                      50px / Normal / Serif
+                                    </p> 
+                                    <br> 
+                                       
+                                    <p class="lsn-bold lsn-sm">
+                                      Main uses:
+                                    </p> 
+
+                                    <p class="lsn-sm">
+                                      Most important header. (Use only when necessary)
+                                    </p>
+                                 </td>
+                                 
+                                  <td>                            
+                                      <p class="lsn-sm">
+                                          .lsn-xl{
+                                            <br> font-family: 'scala-reg';
+                                            <br> font-size: 50px;
+                                            <br> }
+                                      </p> 
+                                        <br>                    
+                                      <p class="lsn-sm">
+                                          .lsn-serif{
+                                            <br> font-family: 'scala-reg';
+                                            <br> font-size: 50px;
+                                            <br> }
+                                      </p>
+                                  </td>
+                                 
+                                 <td> <img src="images/style-guide/typography/examples/xl-txt.svg" alt="lsn"> </td> </td>
+                             </tr>
+
+                  <!-- Lg Serif -->
+                             <tr>
+                                 <td> 
+                                   <img src="images/style-guide/typography/tags/lg-serif.svg" alt="lsn"> 
+                                 </td>
+                                 
+                                 <td> 
+                                      <p class="lsn-lg lsn-serif">
+                                          30px / Normal / Serif
+                                      </p> 
+                                      <br> 
+                                           
+                                      <p class="lsn-bold lsn-sm">
+                                        Main uses:
+                                      </p> 
+                                      <p class="lsn-sm">
+                                        Secondary Header / Callout for sections.
+                                      </p>
+                                 </td>
+                                 
+                            
+                                  <td>                            
+                                      <p class="lsn-sm">
+                                          .lsn-lg{
+                                            <br> font-family: 'scala-sans-reg';
+                                            <br> font-size: 30px;
+                                            <br> }
+                                      </p>  
+                                                           
+
+                                      <p class="lsn-sm">
+                                          .lsn-serif{
+                                            <br> font-family: 'scala-reg';
+                                            <br> font-size: 50px;
+                                            <br> }
+                                      </p>
+                                  </td>
+                           
+
+                                 <td> <img src="images/style-guide/typography/examples/lg-txt.svg" alt="lsn"> </td> </td>
+                             </tr>
+
+                  <!-- LG Bold -->
+                             <tr>
+                                 <td> 
+                                   <img src="images/style-guide/typography/tags/lg-bold.svg" alt="lsn">
+                                 </td>
+                                 
+                                 <td> 
+                                      <p class="lsn-lg lsn-bold">
+                                          30px / Bold / Sans-Serif
+                                      </p> 
+                                      <br> 
+                                           
+                                      <p class="lsn-bold lsn-sm">
+                                        Main uses:
+                                      </p> 
+                                      <p class="lsn-sm">
+                                        Large Numbers ($ Total) 
+                                      </p>
+                                 </td>
+
+                                  <td>                            
+                                      <p class="lsn-sm">
+                                          .lsn-lg{
+                                            <br> font-family: 'scala-sans-reg';
+                                            <br> font-size: 30px;
+                                            <br> }
+                                      </p>  
+                                                           
+
+                                      <p class="lsn-sm">
+                                          .lsn-bold{
+                                            <br> font-family: 'scala-sans-bld';
+                                            <br> }
+                                      </p>
+                                  </td>
+                                 
+                                 <td> No use case yet. </td>
+                              </tr>
+
+                  <!-- Med Normal -->
+                             <tr>
+                                 <td> 
+                                   <img src="images/style-guide/typography/tags/med-normal.svg" alt="lsn">
+                                 </td>
+                                 
+                                 <td> 
+                                      <p class="lsn-med">
+                                          20px / Normal / Sans-Serif
+                                      </p> 
+                                      <br> 
+                                           
+                                      <p class="lsn-bold lsn-sm">
+                                        Main uses:
+                                      </p> 
+                                      <p class="lsn-sm">
+                                        Not sure
+                                      </p>
+                                 </td>
+
+                                  <td>                            
+                                    <p class="lsn-sm">
+                                        .lsn-med{
+                                          <br> font-family: 'scala-sans-reg';
+                                          <br> font-size: 20px;
+                                          <br> }
+                                    </p>  
+                                  </td>
+                                 
+                                   <td> 
+                                      <img src="images/style-guide/typography/examples/med-txt.svg" alt="lsn"> 
+                                   </td>
+                              </tr>
+
+                  <!-- Med Bold -->
+                             <tr>
+                                 <td> 
+                                   <img src="images/style-guide/typography/tags/med-bold.svg" alt="lsn">
+                                 </td>
+                                 
+                                 <td> 
+                                      <p class="lsn-med lsn-bold">
+                                          20px / Bold / Sans-Serif
+                                      </p> 
+                                      <br> 
+                                           
+                                      <p class="lsn-bold lsn-sm">
+                                        Main uses:
+                                      </p> 
+                                      <p class="lsn-sm">
+                                        Individual Numbers (Program Fee)
+                                      </p>
+                                 </td>
+
+                                  <td>                            
+                                    <p class="lsn-sm">
+                                        .lsn-med{
+                                          <br> font-family: 'scala-sans-reg';
+                                          <br> font-size: 20px;
+                                          <br> }
+                                    </p>  
+                                                         
+
+                                    <p class="lsn-sm">
+                                        .lsn-bold{
+                                          <br> font-family: 'scala-sans-bld';
+                                          <br> }
+                                    </p>
+                                  </td>
+                                 
+                                 <td> <img src="images/style-guide/typography/examples/med-txt.svg" alt="lsn"> </td> </td>
+                              </tr>
+
+                  <!-- Lede Normal -->
+                             <tr>
+                                 <td> 
+                                   <img src="images/style-guide/typography/tags/lede-normal.svg" alt="lsn">
+                                 </td>
+                                 
+                                 <td> 
+                                      <p class="lsn-lede">
+                                          18px / Normal / Sans-Serif
+                                      </p> 
+                                      <br> 
+                                           
+                                      <p class="lsn-bold lsn-sm">
+                                        Main uses:
+                                      </p> 
+                                      <p class="lsn-sm">
+                                        More important text (such as warnings or parts of the page the user must see)
+                                      </p>
+                                 </td>
+                                 
+                                  <td>                            
+                                    <p class="lsn-sm">
+                                        .lsn-lede{
+                                          <br> font-family: 'scala-sans-reg';
+                                          <br> font-size: 18px;
+                                          <br> }
+                                    </p>  
+                                  </td>
+
+                                 <td> <img src="images/style-guide/typography/examples/lede-txt.svg" alt="lsn"> </td>
+                              </tr>
+
+                  <!-- Lede Bold -->
+                             <tr>
+                                 <td> 
+                                   <img src="images/style-guide/typography/tags/lede-bold.svg" alt="lsn">
+                                 </td>
+                                 
+                                 <td> 
+                                      <p class="lsn-lede lsn-bold">
+                                          18px / Bold / Sans-Serif
+                                      </p> 
+                                      <br> 
+                                           
+                                      <p class="lsn-bold lsn-sm">
+                                        Main uses:
+                                      </p> 
+                                      <p class="lsn-sm">
+                                        Third level header. Most commonly used header on the page within sections. 
+                                        <br>Button Text.
+                                      </p>
+                                 </td>
+
+                                  <td>                            
+                                    <p class="lsn-sm">
+                                        .lsn-lede{
+                                        <br> font-family: 'scala-sans-reg';
+                                        <br> font-size: 18px;
+                                        <br> }
+                                    </p>  
+                                                         
+
+                                    <p class="lsn-sm">
+                                        .lsn-bold{
+                                        <br> font-family: 'scala-sans-bld';
+                                        <br> }
+                                    </p>
+                                  </td>
+                                 
+                                 <td> 
+                                    <img src="images/style-guide/typography/examples/lede-bold.svg" alt="lsn"> 
+                                 </td>
+                              </tr>
+
+                  <!-- Body Normal -->
+                             <tr>
+                                 <td> 
+                                   <img src="images/style-guide/typography/tags/body-normal.svg" alt="lsn">
+                                 </td>
+                                 
+                                 <td> 
+                                      <p class="lsn-body">
+                                          15px / Normal / Sans-Serif
+                                      </p> 
+                                      <br> 
+                                           
+                                      <p class="lsn-bold lsn-sm">
+                                        Main uses:
+                                      </p> 
+                                      <p class="lsn-sm">
+                                        All normal text on the page.
+                                        <br>Footer, Popup, Paragraphs, Sentences, Form Fields...
+                                        <br>Used in Grid Columns.                               
+                                        </p>
+                                 </td>
+
+                                  <td>                            
+                                    <p class="lsn-sm">
+                                        .lsn-body{
+                                          <br> font-family: 'scala-sans-reg';
+                                          <br> font-size: 15px;
+                                          <br> }
+                                    </p>  
+                                  </td>
+                                 
+                                 <td> <img src="images/style-guide/typography/examples/body-txt.svg" alt="lsn"> </td>
+                              </tr>
+
+                  <!-- Body Bold -->
+                             <tr>
+                                 <td> 
+                                   <img src="images/style-guide/typography/tags/body-bold.svg" alt="lsn">
+                                 </td>
+                                 
+                                 <td> 
+                                      <p class="lsn-body lsn-bold">
+                                          15px / Bold / Sans-Serif
+                                      </p> 
+                                      <br> 
+                                           
+                                      <p class="lsn-bold lsn-sm">
+                                        Main uses:
+                                      </p> 
+                                      <p class="lsn-sm">
+                                        Used to emphasize normal body text or call out an important word or phrase.
+                                      </p>
+                                 </td>
+
+                                  <td>                            
+                                    <p class="lsn-sm">
+                                      .lsn-body{
+                                        <br> font-family: 'scala-sans-reg';
+                                        <br> font-size: 15px;
+                                        <br> }
+                                    </p>  
+                                                         
+
+                                    <p class="lsn-sm">
+                                      .lsn-bold{
+                                        <br> font-family: 'scala-sans-bld';
+                                        <br> }
+                                    </p>
+                                  </td>
+                                 
+                                 <td> <img src="images/style-guide/typography/examples/body-bold.svg" alt="lsn"> </td>
+                              </tr>
+
+                  <!-- Sm Normal -->
+                             <tr>
+                                 <td> 
+                                   <img src="images/style-guide/typography/tags/sm-normal.svg" alt="lsn">
+                                 </td>
+                                 
+                                 <td> 
+                                      <p class="lsn-sm">
+                                          13px / Normal / Sans-Serif
+                                      </p> 
+                                      <br> 
+                                           
+                                      <p class="lsn-bold lsn-sm">
+                                        Main uses:
+                                      </p> 
+                                      <p class="lsn-sm">
+                                        Header of tables. (when not selected to sort)
+                                        <br>Other small text labels.
+                                      </p>
+                                 </td>
+
+                                  <td>                            
+                                    <p class="lsn-sm">
+                                    .lsn-sm{
+                                      <br> font-family: 'scala-sans-reg';
+                                      <br> font-size: 13px;
+                                      <br> }
+                                    </p>  
+                                  </td>
+                                 
+                                 <td> <img src="images/style-guide/typography/examples/sm-txt.svg" alt="lsn"> </td>
+                              </tr>
+
+                  <!-- Sm Bold -->
+                             <tr>
+                                 <td> 
+                                   <img src="images/style-guide/typography/tags/sm-bold.svg" alt="lsn">
+                                 </td>
+                                 
+                                 <td> 
+                                      <p class="lsn-sm lsn-bold">
+                                          13px / Bold / Sans-Serif
+                                      </p> 
+                                      <br> 
+                                           
+                                      <p class="lsn-bold lsn-sm">
+                                        Main uses:
+                                      </p> 
+                                      <p class="lsn-sm">
+                                        Header of tables. (when selected to sort)
+                                        <br>Small and important text labels.
+                                      </p>
+                                 </td>
+
+                                  <td>                            
+                                    <p class="lsn-sm">
+                                      .lsn-sm{
+                                        <br> font-family: 'scala-sans-reg';
+                                        <br> font-size: 13px;
+                                        <br> }
+                                    </p>  
+                                                         
+
+                                    <p class="lsn-sm">
+                                      .lsn-bold{
+                                        <br> font-family: 'scala-sans-bld';
+                                        <br> }
+                                    </p>
+                                  </td>
+                                 
+                                 <td> <img src="images/style-guide/typography/examples/sm-bold.svg" alt="lsn"> </td>
+                              </tr>
+                </table>
+               <!-- Hidden Image (since I made the table) <img class="sg-image" src="images/style-guide/Type.jpg">  -->
+            </section>
+
+
+        <!-- Colors -->
+            <section id="colors">
+                <table class = "table">              
+                  <!-- Colors Header Row -->
+                              <tr class="lsn-sm">
+                                 <th> Color Tag </th>
+                                 <th> Text/Spec Info </th>
+                                 <th> Code </th>
+                                 <th> Usage Examples </th>
+                             </tr>
+
+                  <!-- Primary Blue Color -->
+                             <tr>
+                                 <td> 
+                                    <img src="images/style-guide/colors/tags/primary-blue.svg" alt="lsn"> 
+                                 </td>
+
+
+                                 <td> 
+                                    <p class="lsn-med lsn-bold lsn-primary-blue-font">
+                                      Color Example
+                                    </p> 
+
+                                    <p class="lsn-med lsn-bold lsn-primary-blue-background lsn-white">
+                                      Color Example
+                                    </p> 
+
+                                    <br> 
+                                       
+                                    <p class="lsn-bold lsn-sm">
+                                      Main uses:
+                                    </p> 
+
+                                    <p class="lsn-sm">
+                                           Main Active Button
+                                      <br> Link Color
+                                      <br> Radio Buttons
+                                      <br> Active Icons
+                                      <br> Small Splashes of color
+
+                                    </p>
+                                 </td>
+                                 
+                                  <td>       
+                                    <p class="lsn-body lsn-primary-blue-font"> Use for Fonts </p>                     
+                                        <p class="lsn-sm">
+                                            .lsn-primary-blue-font{
+                                              <br> color: #0076C0;
+                                              <br> }
+                                        </p> 
+                                      <br>
+
+                                      <p class="lsn-body lsn-primary-blue-background lsn-white"> Use for Backgrounds </p>
+                                        <p class="lsn-sm">
+                                          .lsn-primary-blue-background{
+                                            <br> background-color: #0076C0;
+                                            <br> }
+                                        </p> 
+                                  </td>
+                                 
+                                 <td> 
+                                    <img src="images/style-guide/colors/examples/primary-blue-example.svg" alt="lsn"> 
+                                 </td> 
+                             </tr> 
+
+                  <!-- Secondary Blue Color -->
+                             <tr>
+                                 <td> 
+                                    <img src="images/style-guide/colors/tags/secondary-blue.svg" alt="lsn"> 
+                                 </td>
+
+
+                                 <td> 
+                                    <p class="lsn-med lsn-bold lsn-secondary-blue">
+                                      Color Example
+                                    </p> 
+                                    <br> 
+                                       
+                                    <p class="lsn-bold lsn-sm">
+                                      Main uses:
+                                    </p> 
+
+                                    <p class="lsn-sm">
+                                      Secondary splash of color.
+
+                                    </p>
+                                 </td>
+                                 
+                                  <td>                            
+                                      <p class="lsn-sm">
+                                          .lsn-secondary-blue{
+                                            <br> color: #0076C0;
+                                            <br> }
+                                      </p> 
+                                  </td>
+                                 
+                                 <td> 
+                                  No current use case.
+                                    <!-- <img src="images/style-guide/colors/examples/secondary-blue-example.svg" alt="lsn"> -->
+                                 </td> 
+                             </tr>            
+
+                  <!-- Gray Background Color -->
+                             <tr>
+                                 <td> 
+                                    <img src="images/style-guide/colors/tags/gray-background.svg" alt="lsn"> 
+                                 </td>
+
+
+                                 <td> 
+                                      <p class="lsn-bold lsn-med lsn-dark-primary-gray lsn-gray-background">
+                                      Color Example
+                                      </p> 
+                                    <br> 
+                                       
+                                    <p class="lsn-bold lsn-sm">
+                                      Main uses:
+                                    </p> 
+
+                                    <p class="lsn-sm">
+                                      Page Background.
+                                      <br> Panel Background.
+                                    </p>
+
+                                      <br> 
+
+                                    <p class="lsn-bold lsn-sm lsn-red-font">
+                                      Don't Use:
+                                    </p> 
+
+                                    <p class="lsn-sm">
+                                      As a text color.
+                                    </p>
+
+                                 </td>
+                                 
+                                  <td>                            
+                                      <p class="lsn-sm">
+                                          .lsn-gray-background{
+                                            <br> background-color: #F7F7FB;
+                                            <br> }
+                                      </p> 
+                                  </td>
+                                 
+                                 <td> 
+                                    <img src="images/style-guide/colors/examples/background-gray-example.svg" alt="lsn">
+                                 </td> 
+                             </tr>            
+
+                  <!-- Gray Line Color -->
+                             <tr>
+                                 <td> 
+                                    <img src="images/style-guide/colors/tags/gray-line.svg" alt="lsn"> 
+                                 </td>
+
+
+                                 <td> 
+                                      <p class="lsn-bold lsn-med lsn-dark-primary-gray lsn-gray-line">
+                                      Color Example
+                                      </p> 
+                                    <br> 
+                                       
+                                    <p class="lsn-bold lsn-sm">
+                                      Main uses:
+                                    </p> 
+
+                                    <p class="lsn-sm">
+                                           Line divider Color.
+                                      <br> Outline color. (panels)
+                                      <br> Input Box outline color.
+                                    </p>
+
+                                      <br> 
+
+                                    <p class="lsn-bold lsn-sm lsn-red-font">
+                                      Don't Use:
+                                    </p> 
+
+                                    <p class="lsn-sm">
+                                      As a text color.
+                                    </p>
+
+                                 </td>
+                                 
+                                  <td>                            
+                                      <p class="lsn-sm">
+                                          .lsn-gray-line{
+                                            <br> border: 1px #C8C8CE solid;
+                                            <br> }
+                                      </p> 
+                                  </td>
+                                 
+                                 <td> 
+                                    <img src="images/style-guide/colors/examples/line-gray-example.svg" alt="lsn">
+                                 </td> 
+                             </tr>            
+
+                  <!-- Medium Gray Color -->
+                             <tr>
+                                 <td> 
+                                    <img src="images/style-guide/colors/tags/medium-gray.svg" alt="lsn"> 
+                                 </td>
+
+
+                                 <td> 
+                                    <p class="lsn-bold lsn-med lsn-medium-gray-font">
+                                        Color Example
+                                    </p> 
+
+                                    <p class="lsn-bold lsn-med lsn-medium-gray-background lsn-white">
+                                        Color Example
+                                    </p> 
+                                    
+                                    <br> 
+                                       
+                                    <p class="lsn-bold lsn-sm">
+                                           Main uses:
+                                    </p> 
+
+                                    <p class="lsn-sm">
+                                           Lightest gray text (passes AA)
+                                      <br> Active input field text &amp; box color
+                                      <br> Inactive Button Background
+                                    </p>
+                                 </td>
+                                 
+                                  <td>    
+                                    <p class="lsn-body lsn-medium-gray-font">Use for Fonts</p>                        
+                                      <p class="lsn-sm">
+                                          .lsn-medium-gray-font{
+                                            <br> color: #75757D;
+                                            <br> }
+                                      </p> 
+
+                                      <br>
+                                      <p class="lsn-body lsn-medium-gray-background lsn-white">Use for Backgrounds</p>
+                                        <p class="lsn-sm">
+                                          .lsn-medium-gray-background{
+                                            <br> background-color: #75757D;
+                                            <br> }
+                                      </p> 
+                                  </td>
+                                 
+                                 <td> 
+                                    <img src="images/style-guide/colors/examples/medium-gray-text-example.svg" alt="lsn">
+                                 </td> 
+                             </tr>            
+
+                  <!-- Dark Primary Gray Color -->
+                             <tr>
+                                 <td> 
+                                    <img src="images/style-guide/colors/tags/dark-primary-gray.svg" alt="lsn"> 
+                                 </td>
+
+
+                                 <td> 
+                                    <p class="lsn-bold lsn-med lsn-dark-primary-gray">
+                                        Color Example
+                                    </p> 
+                                    <br> 
+                                       
+                                    <p class="lsn-bold lsn-sm">
+                                           Main uses:
+                                    </p> 
+
+                                    <p class="lsn-sm">
+                                          Primary Text color. (use in most places for text) 
+                                          <br> Used for Headers.
+                                          <br> Text on Page.
+                                          <br> After you enter data into an input field.
+                                    </p>
+                                 </td>
+                                 
+                                  <td>                            
+                                      <p class="lsn-sm">
+                                          .lsn-dark-primary-gray{
+                                            <br> color: #383D45;
+                                            <br> }
+                                      </p> 
+                                  </td>
+                                 
+                                 <td> 
+                                    <img src="images/style-guide/colors/examples/dark-primary-gray-example.svg" alt="lsn">
+                                 </td> 
+                             </tr>            
+
+                  <!-- Black Color -->
+                             <tr>
+                                 <td> 
+                                    <img src="images/style-guide/colors/tags/black.svg" alt="lsn"> 
+                                 </td>
+
+
+                                 <td> 
+                                    <p class="lsn-bold lsn-med lsn-black">
+                                        Color Example
+                                    </p> 
+                                    <br> 
+                                       
+                                    <p class="lsn-bold lsn-sm">
+                                           Main uses:
+                                    </p> 
+
+                                    <p class="lsn-sm">
+                                          No Main Use Case. 
+                                          <br> Please use Dark Primary Gray for all text on page.
+                                    </p>
+                                 </td>
+                                 
+                                  <td>                            
+                                      <p class="lsn-sm">
+                                          .lsn-black{
+                                            <br> color: #000000;
+                                            <br> }
+                                      </p> 
+                                  </td>
+                                 
+                                 <td> 
+                                    No current use case.
+                                    <!-- <img src="images/style-guide/colors/examples/black-example.svg" alt="lsn"> -->
+                                 </td> 
+                             </tr>            
+
+                  <!-- White Color -->
+                             <tr>
+                                 <td> 
+                                    <img src="images/style-guide/colors/tags/white.svg" alt="lsn"> 
+                                 </td>
+
+
+                                 <td> 
+                                    <p class="lsn-bold lsn-med lsn-white lsn-primary-blue-background">
+                                        Color Example
+                                    </p> 
+                                    <br> 
+                                       
+                                    <p class="lsn-bold lsn-sm">
+                                           Main uses:
+                                    </p> 
+
+                                    <p class="lsn-sm">
+                                      White text on a colored background. 
+                                      <br> (ex: buttons)
+                                    </p>
+                                 </td>
+                                 
+                                  <td>                            
+                                      <p class="lsn-sm">
+                                          .lsn-white{
+                                            <br> color: #FFFFFF;
+                                            <br> }
+                                      </p> 
+                                  </td>
+                                 
+                                 <td> 
+                                    <img src="images/style-guide/colors/examples/white-example.svg" alt="lsn">
+                                 </td> 
+                             </tr>            
+
+                  <!-- Icon Green Color -->
+                             <tr>
+                                 <td> 
+                                    <img src="images/style-guide/colors/tags/green-background.svg" alt="lsn"> 
+                                 </td>
+
+
+                                 <td> 
+                                    <p class="lsn-bold lsn-med lsn-green-background lsn-white">
+                                        Color Example
+                                    </p> 
+                                    <br> 
+                                       
+                                    <p class="lsn-bold lsn-sm">
+                                           Main uses:
+                                    </p> 
+
+                                    <p class="lsn-sm">
+                                          Background Color of an Icon.
+                                    </p>
+                                 </td>
+                                 
+                                  <td>                            
+                                      <p class="lsn-sm">
+                                          .lsn-green-background{
+                                            <br> background-color: #40A164;
+                                            <br> }
+                                      </p> 
+                                  </td>
+                                 
+                                 <td> 
+                                    <img src="images/style-guide/colors/examples/icon-green-example.svg" alt="lsn">
+                                 </td> 
+                             </tr>            
+
+                  <!-- Icon Yellow Color -->
+                             <tr>
+                                 <td> 
+                                    <img src="images/style-guide/colors/tags/yellow-background.svg" alt="lsn"> 
+                                 </td>
+
+
+                                 <td> 
+                                    <p class="lsn-bold lsn-med lsn-yellow-background">
+                                        Color Example
+                                    </p> 
+                                    <br> 
+                                       
+                                    <p class="lsn-bold lsn-sm">
+                                           Main uses:
+                                    </p> 
+
+                                    <p class="lsn-sm">
+                                          Background Color of an Icon.
+                                    </p>
+                                 </td>
+                                 
+                                  <td>                            
+                                      <p class="lsn-sm">
+                                          .lsn-yellow-background{
+                                            <br> background-color: #FFDC46;
+                                            <br> }
+                                      </p> 
+                                  </td>
+                                 
+                                 <td> 
+                                    <img src="images/style-guide/colors/examples/icon-yellow-example.svg" alt="lsn">
+                                 </td> 
+                             </tr>            
+
+                  <!-- Icon Red Color -->
+                             <tr>
+                                 <td> 
+                                    <img src="images/style-guide/colors/tags/red.svg" alt="lsn"> 
+                                 </td>
+
+
+                                 <td> 
+                                    <p class="lsn-bold lsn-med lsn-red-background lsn-white">
+                                        Color Example
+                                    </p> 
+
+                                    <p class="lsn-bold lsn-med lsn-red-font">
+                                        Color Example
+                                    </p> 
+
+                                    <br> 
+                                       
+                                    <p class="lsn-bold lsn-sm">
+                                           Main uses:
+                                    </p> 
+
+                                    <p class="lsn-sm">
+                                          Background of an Icon.
+                                          <br> Alert / Warning / Error Text.
+                                    </p>
+                                 </td>
+                                 
+                                  <td>    
+                                    <p class="lsn-body lsn-red-background lsn-white">Use for Backgrounds</p>                       
+                                      <p class="lsn-sm">
+                                          .lsn-red-background{
+                                            <br> background-color: #C71D46;
+                                            <br> }
+                                      </p> 
+
+                                      <br>
+                                      <p class="lsn-body lsn-red-font">Use for Fonts</p>
+
+                                      <p class="lsn-sm">
+                                          .lsn-red-font{
+                                            <br> color: #C71D46;
+                                            <br> }
+                                      </p> 
+                                  </td>
+                                 
+                                 <td> 
+                                    <img src="images/style-guide/colors/examples/red-example.svg" alt="lsn">
+                                 </td> 
+                             </tr> 
+                        </table>           
+
+
+                  <!-- Other Colors -->
+                          <table class="table">              
+                              <!-- Colors Header Row -->
+                                          <tr class="lsn-sm">
+                                             <th> Additional Colors </th>
+                                             <th> Text/Spec Info </th>
+                                             <th> Code </th>
+                                             <th> Usage Examples </th>
+                                         </tr>
+
+                              <!-- Hover Highlight Color -->
+                                         <tr>
+                                             <td> 
+                                                <img src="images/style-guide/colors/tags/hover-highlight.svg" alt="lsn"> 
+                                             </td>
+
+
+                                             <td> 
+                                                <p class="lsn-bold lsn-sm">
+                                                  Main uses:
+                                                </p> 
+
+                                                <p class="lsn-sm">
+                                                    When you hover over a row in a table
+                                                    <br> When you hover over a selection in a form field drop down
+                                                    <br> When you hover over a text button
+
+                                                </p>
+                                             </td>
+                                             
+                                              <td>                          
+                                                  <p class="lsn-sm">
+                                                      :hover{
+                                                        <br> background:rgba(0, 118, 192, 0.05);
+                                                        <br> }
+                                                  </p> 
+                                              </td>
+                                             
+                                             <td> 
+                                                Put Example Here
+                                                <!-- <img src="images/style-guide/colors/examples/primary-blue-example.svg" alt="lsn"> -->
+                                             </td> 
+                                         </tr> 
+
+                              <!-- Overlay Background Color -->
+                                         <tr>
+                                             <td> 
+                                                <img src="images/style-guide/colors/tags/overlay-background.svg" alt="lsn"> 
+                                             </td>
+
+
+                                             <td> 
+                                                <p class="lsn-bold lsn-sm">
+                                                  Main uses:
+                                                </p> 
+
+                                                <p class="lsn-sm">
+                                                    Background behind a popup / modal / overlay.
+                                                </p>
+                                             </td>
+                                             
+                                              <td>                          
+                                                  <p class="lsn-sm">
+                                                      .lsn-overlay-background{
+                                                        <br> background:rgba(0, 0, 0, 0.50);
+                                                        <br> }
+                                                  </p> 
+                                              </td>
+                                             
+                                             <td> 
+                                                Put Example Here
+                                                <!-- <img src="images/style-guide/colors/examples/primary-blue-example.svg" alt="lsn"> -->
+                                             </td> 
+                                         </tr> 
+                          </table>
+            </section>
+
+        <!-- Buttons/Fields -->
+            <section id="buttonsFields"> 
+              <img class="sg-image" src="images/style-guide/Buttons-Fields.jpg">
+            </section>
+
+        <!-- Icons -->
+            <section id="icons"> 
+              <img class="sg-image" src="images/style-guide/Icons.jpg">
+            </section>
+
+        <!-- Containers -->
+            <section id="containers"> 
+              <img class="sg-image" src="images/style-guide/Containers.jpg">
+            </section>
+
+        <!-- Popups/Modals -->
+            <section id="popupModals"> 
+              <img class="sg-image" src="images/style-guide/Popup-Modals.jpg">
+            </section>
+
+        <!-- Resources with buckets that link to relevant design pages -->
+            <section class="home-buckets" id="resources"> 
                 <a href="https://liaison-intl.atlassian.net/wiki/pages/viewpage.action?spaceKey=UX&title=UXD" target="_blank">
                   <div class="bucket allbuckets" >
                     <h3>UXD Confluence</h3>
@@ -87,41 +1091,8 @@
                   <div class="bucket allbuckets">
                   <h3>The Spot</h3>
                   </div>
-            
-
             </section>
 
-
-
-        <!-- Colors -->
-            <section id="colors"> 
-              <img class="sg-image" src="images/style-guide/Colors.jpg">
-            </section>
-
-        <!-- Typography -->
-            <section id="typography"> 
-              <img class="sg-image" src="images/style-guide/Type.jpg">
-            </section>
-
-        <!-- Buttons/Fields -->
-            <section id="buttonsFields"> 
-              <img class="sg-image" src="images/style-guide/Buttons-Fields.jpg">
-            </section>
-
-        <!-- Icons -->
-            <section id="icons"> 
-              <img class="sg-image" src="images/style-guide/Icons.jpg">
-            </section>
-
-        <!-- Containers -->
-            <section id="containers"> 
-              <img class="sg-image" src="images/style-guide/Containers.jpg">
-            </section>
-
-        <!-- Popups/Modals -->
-            <section id="popupModals"> 
-              <img class="sg-image" src="images/style-guide/Popup-Modals.jpg">
-            </section>
       </div>
 
 
@@ -131,8 +1102,8 @@
 
 
 
-<!-- JS attached at bottom -->
-<script type="text/javascript" src="script.js"></script>
+  <!-- JS attached at bottom -->
+  <script type="text/javascript" src="script.js"></script>
 
 </body>
 

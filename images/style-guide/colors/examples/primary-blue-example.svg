@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="348px" height="202px" viewBox="0 0 348 202" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>primary-blue-example</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Colors" transform="translate(-990.000000, -87.000000)">
+            <g id="primary-blue-example" transform="translate(990.000000, 87.000000)">
+                <text id="Link-Example" font-family="ScalaSansOT, Scala Sans OT" font-size="15" font-weight="normal" line-spacing="16" fill="#0076C0">
+                    <tspan x="133" y="72">Link Example</tspan>
+                </text>
+                <circle id="Oval-2-Copy-6" stroke="#B2B2B2" fill="#FFFFFF" cx="128.5" cy="194.5" r="6.5"></circle>
+                <text id="Radio-Button" font-family="ScalaSansOT, Scala Sans OT" font-size="15" font-weight="normal" fill="#50565B">
+                    <tspan x="142" y="198">Radio Button</tspan>
+                </text>
+                <circle id="Oval-2-Copy-3" fill="#247ED2" cx="128.5" cy="194.5" r="4.5"></circle>
+                <g id="Group" transform="translate(96.000000, 123.000000)">
+                    <text id="Link-with-Icon-examp" font-family="ScalaSansOT-Bold, Scala Sans OT" font-size="15" font-weight="bold" line-spacing="15" fill="#0072C6">
+                        <tspan x="24" y="14">Link with Icon example</tspan>
+                    </text>
+                    <g id="Group-2" transform="translate(0.000000, 2.000000)">
+                        <g id="Group-5-Copy-2" stroke="#3080D2" fill="#3080D2">
+                            <circle id="Oval-2-Copy" cx="6.5" cy="6.5" r="6.5"></circle>
+                        </g>
+                        <text id="i" font-family="ScalaSansOT-Black, Scala Sans OT" font-size="10" font-weight="700" fill="#FFFFFF">
+                            <tspan x="5" y="10">i</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-6">
+                    <rect id="Rectangle-2-Copy-8" fill="#0076C0" x="0" y="0.282700422" width="348" height="35.4345992" rx="3"></rect>
+                    <text id="Submit" font-family="ScalaSansOT-Bold, Scala Sans OT" font-size="18.2000008" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="146.836499" y="24.2827004">Submit</tspan>
+                    </text>
+                </g>
+                <g id="Group-3-Copy-2" transform="translate(140.000000, 95.000000)">
+                    <polygon id="Fill-13" fill="#0076C0" points="0.4967 2.3441 2.3537 0.7201 6.8537 5.2201 11.3537 0.7201 13.2767 2.2361 6.8537 9.1261"></polygon>
+                    <polygon id="Stroke-14" stroke="#FFFFFF" points="0.4967 2.3441 2.3537 0.7201 6.8537 5.2201 11.3537 0.7201 13.2767 2.2361 6.8537 9.1261"></polygon>
+                </g>
+                <text id="Sort-Example" font-family="ScalaSansOT-Bold, Scala Sans OT" font-size="13" font-weight="bold" fill="#0076C0">
+                    <tspan x="62" y="104">Sort Example</tspan>
+                </text>
+                <text id="Column-Header" font-family="ScalaSansOT, Scala Sans OT" font-size="13" font-weight="normal" fill="#0076C0">
+                    <tspan x="190" y="104">Column Header</tspan>
+                </text>
+                <g id="Group-20-Copy-3" transform="translate(122.000000, 154.000000)" stroke="#1B7CD5">
+                    <rect id="Rectangle-15-Copy-4" x="0.5" y="0.5" width="14" height="14"></rect>
+                    <polyline id="Path-3-Copy" stroke-width="1.3" points="4 7.26384628 6 9.52769257 10.5276926 5"></polyline>
+                </g>
+                <path d="M212.635151,156.635151 C213.03092,156.239382 213.551669,156.031082 214.093247,156.031082 C214.634826,156.031082 215.134745,156.239382 215.551343,156.635151 L216.113752,157.197559 L213.197559,160.092922 L212.635151,159.530514 C211.843613,158.738976 211.843613,157.426689 212.635151,156.635151 L212.635151,156.635151 Z M220.633851,167.529213 L213.926608,160.82197 L216.82197,157.926608 L223.529213,164.633851 L220.633851,167.529213 Z M221.654518,167.987472 L223.987472,165.654518 L224.75818,168.75818 L221.654518,167.987472 Z M220.258912,168.6332 L220.258912,168.6332 C220.258912,168.6332 220.279741,168.65403 220.258912,168.6332 C220.300571,168.67486 220.321401,168.69569 220.363061,168.71652 C220.383891,168.71652 220.383891,168.73735 220.404721,168.73735 C220.425551,168.75818 220.467211,168.75818 220.488041,168.77901 L220.508871,168.77901 L225.341419,169.966317 C225.383079,169.966317 225.424738,169.987147 225.466398,169.987147 C225.612208,169.987147 225.737188,169.924657 225.841337,169.841337 C225.966317,169.716358 226.028807,169.528888 225.987147,169.341419 L224.79984,164.508871 L224.79984,164.488041 C224.79984,164.467211 224.77901,164.425551 224.75818,164.404721 C224.75818,164.383891 224.73735,164.383891 224.73735,164.363061 C224.71652,164.342231 224.69569,164.300571 224.67486,164.279741 C224.67486,164.279741 224.67486,164.258912 224.65403,164.258912 L216.280392,155.906103 C215.072255,154.697966 213.11424,154.697966 211.906103,155.906103 C210.697966,157.11424 210.697966,159.072255 211.906103,160.280392 L220.258912,168.6332 Z" id="Fill-1-Copy-2" fill="#0076C0" transform="translate(218.500000, 162.493573) scale(-1, 1) translate(-218.500000, -162.493573) "></path>
+                <g id="Group-5-Copy-4" transform="translate(168.000000, 155.000000)">
+                    <circle id="Oval-2-Copy" stroke="#0076C0" fill="#0076C0" cx="7" cy="7" r="7"></circle>
+                    <g id="Group-19-Copy-2" transform="translate(3.000000, 2.000000)" stroke="#FFFFFF" stroke-width="1.3">
+                        <path d="M4,9.3125 C6.209139,9.3125 8,7.53809912 8,5.34926471 C8,3.16043029 6.209139,1.38602941 4,1.38602941 C3.05965902,1.38602941 2.19510415,1.70752601 1.51219387,2.24563372 C0.829283586,2.78374143 6.0249028e-12,4.09212844 6.0249028e-12,5.34926471 C6.0249028e-12,6.42557085 4.23661106e-13,7.34926471 4.23661106e-13,7.34926471" id="Oval" transform="translate(4.000000, 5.349265) rotate(90.000000) translate(-4.000000, -5.349265) "></path>
+                        <polygon id="Triangle" transform="translate(2.081933, 1.222729) rotate(-90.000000) translate(-2.081933, -1.222729) " points="1.58193277 1.43176264 2.03069298 0.722729027 2.47945319 1.43176264"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

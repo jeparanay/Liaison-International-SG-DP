@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="349px" height="34px" viewBox="0 0 349 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Type" transform="translate(-991.000000, -1466.000000)">
+            <g id="Group-14" transform="translate(991.000000, 1466.000000)">
+                <text id="USA" font-family="ScalaSansOT, Scala Sans OT" font-size="15" font-weight="normal" fill="#383D45">
+                    <tspan x="78" y="22">USA</tspan>
+                </text>
+                <text id="Country" font-family="ScalaSansOT, Scala Sans OT" font-size="15" font-weight="normal" fill="#383D45">
+                    <tspan x="0.1" y="22">Country</tspan>
+                </text>
+                <rect id="Rectangle-6-Copy-5" stroke="#C8C8CE" x="70.5" y="0.5" width="278" height="33"></rect>
+                <polygon id="Triangle-Copy" fill="#888888" transform="translate(335.000000, 17.500000) rotate(180.000000) translate(-335.000000, -17.500000) " points="335 15 338 20 332 20"></polygon>
+                <polygon id="Star-Copy-4" fill="#D0011B" points="54 12.8859667 50.9098301 14.5105652 51.5 11.0696104 49 8.63271264 52.454915 8.1306841 54 5 55.545085 8.1306841 59 8.63271264 56.5 11.0696104 57.0901699 14.5105652"></polygon>
+                <polygon id="Star-Copy-4" fill="#D0011B" points="114 12.8859667 110.90983 14.5105652 111.5 11.0696104 109 8.63271264 112.454915 8.1306841 114 5 115.545085 8.1306841 119 8.63271264 116.5 11.0696104 117.09017 14.5105652"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

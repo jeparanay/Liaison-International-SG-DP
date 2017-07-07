@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="348px" height="91px" viewBox="0 0 348 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>medium-gray-text-example</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Colors" transform="translate(-988.000000, -1034.000000)">
+            <g id="medium-gray-text-example" transform="translate(987.000000, 1034.000000)">
+                <text id="Enter-Your-Name" font-family="ScalaSansOT, Scala Sans OT" font-size="15" font-weight="normal" fill="#75757D">
+                    <tspan x="96" y="78.5">Enter Your Name</tspan>
+                </text>
+                <text id="Input-Field-Copy" font-family="ScalaSansOT, Scala Sans OT" font-size="15" font-weight="normal" fill="#50565B">
+                    <tspan x="0.44" y="78.5">Input Field</tspan>
+                </text>
+                <rect id="Rectangle-6-Copy-12" stroke="#C8C8CE" x="88.5" y="57" width="259" height="33"></rect>
+                <rect id="Rectangle-2-Copy-8" fill="#75757D" x="2" y="0" width="347" height="35.4345992" rx="3"></rect>
+                <text id="Review-and-Submit" font-family="ScalaSansOT-Bold, Scala Sans OT" font-size="18.2000008" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="103.482097" y="23">Review and Submit</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
